@@ -1,0 +1,5 @@
+name: Forellen 
+latitude: !secret forellen_latitude
+longitude: !secret forellen_longitude
+radius: 200
+icon: mdi:odnoklassniki

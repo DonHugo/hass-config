@@ -1,0 +1,5 @@
+name: Knuts
+latitude: !secret knuts_latitude
+longitude: !secret knuts_longitude
+radius: 2000
+icon: mdi:home

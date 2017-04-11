@@ -1,0 +1,173 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 70
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Stockholm
+  customize: !include misc/customize.yaml
+
+# Show links to resources in log and frontend
+introduction:
+
+recorder:
+  purge_days: 30
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  api_password: !secret http_password
+  # Uncomment this if you are using SSL or running in Docker etc
+  # base_url: example.duckdns.org:8123
+  server_port: 8234
+  trusted_networks:
+    - 192.168.0.0/24
+
+# Checks for available updates
+updater:
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time.
+history:
+
+# View all events in a logbook
+logbook:
+
+# Track the sun
+sun:
+
+mqtt:
+  broker: !secret mqtt_broker
+  discovery: true
+
+influxdb:
+  host: 192.168.0.140
+
+# Weather Prediction
+sensor:
+  - platform: moon
+  - platform: yr
+    monitored_conditions:
+      - temperature
+      - symbol
+      - precipitation
+      - windSpeed
+      - pressure
+      - windDirection
+      - humidity
+      - fog
+      - cloudiness
+
+#  - platform: wunderground
+#    api_key: !secret wunderground_api_key
+#    lang: SW
+#    monitored_conditions:
+#      - alerts
+#      - dewpoint_c
+#      - feelslike_c
+#      - heat_index_c
+#      - elevation
+#      - location
+#      - observation_time
+#      - precip_1hr_metric
+#      - precip_today_metric
+#      - pressure_mb
+#      - pressure_trend
+#      - relative_humidity
+#      - station_id
+#      - solarradiation
+#      - temp_c
+#      - UV
+#      - visibility_km
+#      - weather
+#      - wind_degrees
+#      - wind_dir
+#      - wind_gust_kph
+#      - wind_kph
+
+  - platform: rfxtrx
+    automatic_add: True
+    devices:
+      0d540217e60000fc1f0203fa0179: #köket
+        name: Temperatur
+        data_type:
+          - Temperature
+          - Humidity
+          - Barometer
+      0b5501ffc40000c700046058:
+        name: Regnmätare
+        data_type:
+          - Rain rate
+      105603f47c0000be000000000179030051:
+        name: Vindmätare
+        data_type:
+          - Wind direction
+
+  - platform: speedtest
+    minute:
+      - 0
+      - 30
+    monitored_conditions:
+      - ping
+      - download
+      - upload
+
+# Text to speech
+tts:
+  platform: google
+
+media_player:
+  - platform: kodi
+    host: 192.168.0.110
+    port: 80
+#    username: KODI
+#    password:
+
+  - platform: cast
+
+ifttt:
+  key: !secret Ifttt_key
+
+device_tracker:
+  - platform: owntracks
+
+  - platform: asuswrt
+    host: 192.168.0.1
+    username: admin
+    password: kanon
+    protocol: telnet
+
+zwave:
+  config_path: /root/open-zwave/config/
+  usb_path: /dev/ttyS0
+
+rfxtrx:
+  device: /dev/serial/by-id/usb-RFXCOM_RFXtrx433_A118W41K-if00-port0
+  debug: true
+
+switch:
+  platform: rfxtrx
+  automatic_add: True
+
+light:
+  - platform: rfxtrx
+    automatic_add: True
+
+group: !include groups.yaml
+zone: !include_dir_list zones/
+

@@ -1,0 +1,22 @@
+sensor.pws_temp_c:
+  friendly_name: Temperatur ute
+  icon: mdi:thermometer
+sensor.pws_feelslike_c:
+  friendly_name: Känns som
+  icon: mdi:thermometer
+sensor.pws_weather:
+  friendly_name: Väder
+sensor.regnmatare_rain_rate:
+  friendly_name: Regn
+sensor.temperatur_barometer:
+  friendly_name: Barimeter
+sensor.temperatur_humidity:
+  friendly_name: Hygrometer Kök
+sensor.temperatur_temperature:
+  friendly_name: Temperatur Kök
+sensor.vindmatare_wind_direction:
+  friendly_name: Vindriktning
+sensor.yr_temperature:
+  friendly_name: Temperatur yr.se
+sensor.yr_symbol:
+  friendly_name: Prognos

@@ -1,0 +1,5 @@
+name: Raa
+latitude: !secret raa_latitude
+longitude: !secret raa_longitude
+radius: 200
+icon: mdi:worker

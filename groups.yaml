@@ -1,0 +1,138 @@
+#################################################################
+## Groups
+#################################################################
+
+  default_view:
+    view: yes
+    icon: mdi:home
+    entities:
+#      - group.all_lights
+#      - group.switches
+#      - group.home_security
+#      - group.weather_yr
+#      - group.weather_wu
+      - group.weather
+#      - group.thermostats
+      - group.information
+      - group.familj
+
+  media:
+    name: Media
+    view: yes
+    icon: mdi:play-circle-outline
+    entities:
+      - group.media_player
+
+  network:
+    name: Network 
+    view: yes
+    icon: mdi:network
+    entities:
+      - group.devices
+
+  weather:
+    view: yes
+    icon: mdi:weather-sunny
+    entities:
+      - group.weather_yr
+#      - group.weather_wu
+
+  sensors:
+    name: Sensors
+    view: yes
+    icon: mdi:collage
+    entities: 
+      - group.rfxtrx
+
+  familj:
+    name: Familj
+    view: no
+    entities:
+      - device_tracker.owntracks_samsungh
+
+  weather_yr:
+    view: no
+    entities:
+      - sensor.yr_cloudiness
+      - sensor.yr_dewpoint_temperature
+      - sensor.yr_fog
+      - sensor.yr_humidity
+      - sensor.yr_precipitation
+      - sensor.yr_pressure
+      - sensor.yr_symbol
+      - sensor.yr_temperature
+      - sensor.yr_wind_direction
+      - sensor.yr_wind_speed
+      - sun.sun 
+
+#  weather_wu:
+#    view: no
+#    entities:
+#      - sensor.pws_alerts
+#      - sensor.pws_dewpoint_c
+#      - sensor.pws_feelslike_c
+#      - sensor.pws_heat_index_c
+#      - sensor.pws_elevation
+#      - sensor.pws_location
+#      - sensor.pws_observation_time
+#      - sensor.pws_precip_1hr_metric
+#      - sensor.pws_precip_today_metric
+#      - sensor.pws_pressure_mb
+#      - sensor.pws_pressure_trend
+#      - sensor.pws_relative_humidity
+#      - sensor.pws_station_id
+#      - sensor.pws_solarradiation
+#      - sensor.pws_temp_c
+#      - sensor.pws_UV
+#      - sensor.pws_visibility_km
+#      - sensor.pws_weather
+#      - sensor.pws_wind_degrees
+#      - sensor.pws_wind_dir
+#      - sensor.pws_wind_gust_kph
+#      - sensor.pws_wind_kph
+
+  information:
+    view: no
+    entities:
+      - sensor.moon
+      - sun.sun
+      - sensor.Temperatur_temperature
+      - sensor.yr_symbol
+      - sensor.yr_temperature
+
+  media_player:
+    view: no
+    entities:
+      - media_player.chromecast_vardagsrum
+      - media_player.kodi
+
+  devices:
+    view: no
+    entities:
+      - device_tracker.00113203f360
+      - device_tracker.04155220e7df
+      - device_tracker.36c9e3f1b805
+      - device_tracker.4888ca387159
+      - device_tracker.546009a7e15e
+      - device_tracker.6057184aa2cc
+      - device_tracker.8841fc4531b3
+      - device_tracker.8841fc4531b7
+      - device_tracker.android7a6fff1123c5275f
+      - device_tracker.b827eb1b8fb7
+      - device_tracker.b827eb22685c
+      - device_tracker.b827eb7c599e
+      - device_tracker.b827eb97ad70
+      - device_tracker.b827ebf03212
+      - device_tracker.dc53603dfdb0
+      - device_tracker.f025b7cb5658
+      - device_tracker.openelec
+      - device_tracker.pine64
+
+  rfxtrx:
+    view: no
+    entities:
+      - sensor.Temperatur_barometer
+      - sensor.Temperatur_humidity
+      - sensor.Temperatur_temperature
+      - sensor.regnmatare_rain_rate
+      - sensor.vindmatare_wind_direction

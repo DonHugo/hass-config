@@ -1,0 +1,49 @@
+2017-03-21 16:36:25.920 Always, OpenZwave Version 1.4.2443 Starting Up
+2017-03-21 16:36:25.921 Info, Setting Up Provided Network Key for Secure Communications
+2017-03-21 16:36:25.921 Warning, Failed - Network Key Not Set
+2017-03-21 16:36:25.921 Info, mgr,     Added driver for controller /dev/ttyS0
+2017-03-21 16:36:25.921 Info,   Opening controller /dev/ttyS0
+2017-03-21 16:36:25.921 Info, Trying to open serial port /dev/ttyS0 (attempt 1)
+2017-03-21 16:36:25.921 Info, Serial port /dev/ttyS0 opened (attempt 1)
+2017-03-21 16:36:25.922 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_VERSION: 0x01, 0x03, 0x00, 0x15, 0xe9
+2017-03-21 16:36:25.922 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_MEMORY_GET_ID: 0x01, 0x03, 0x00, 0x20, 0xdc
+2017-03-21 16:36:25.922 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES: 0x01, 0x03, 0x00, 0x05, 0xf9
+2017-03-21 16:36:25.922 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_GET_CAPABILITIES: 0x01, 0x03, 0x00, 0x07, 0xfb
+2017-03-21 16:36:25.922 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_SUC_NODE_ID: 0x01, 0x03, 0x00, 0x56, 0xaa
+2017-03-21 16:36:25.922 Detail, 
+2017-03-21 16:36:25.922 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x15) - FUNC_ID_ZW_GET_VERSION: 0x01, 0x03, 0x00, 0x15, 0xe9
+2017-03-21 16:36:26.922 Error, contrlr, ERROR: Dropping command, expected response not received after 1 attempt(s)
+2017-03-21 16:36:26.923 Detail, contrlr, Removing current message
+2017-03-21 16:36:26.923 Detail, contrlr, Notification: Notification - TimeOut
+2017-03-21 16:36:26.931 Detail, 
+2017-03-21 16:36:26.931 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x20) - FUNC_ID_ZW_MEMORY_GET_ID: 0x01, 0x03, 0x00, 0x20, 0xdc
+2017-03-21 16:36:27.931 Error, contrlr, ERROR: Dropping command, expected response not received after 1 attempt(s)
+2017-03-21 16:36:27.931 Detail, contrlr, Removing current message
+2017-03-21 16:36:27.932 Detail, contrlr, Notification: Notification - TimeOut
+2017-03-21 16:36:27.937 Detail, 
+2017-03-21 16:36:27.937 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x05) - FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES: 0x01, 0x03, 0x00, 0x05, 0xf9
+2017-03-21 16:36:28.937 Error, contrlr, ERROR: Dropping command, expected response not received after 1 attempt(s)
+2017-03-21 16:36:28.938 Detail, contrlr, Removing current message
+2017-03-21 16:36:28.938 Detail, contrlr, Notification: Notification - TimeOut
+2017-03-21 16:36:28.943 Detail, 
+2017-03-21 16:36:28.943 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x07) - FUNC_ID_SERIAL_API_GET_CAPABILITIES: 0x01, 0x03, 0x00, 0x07, 0xfb
+2017-03-21 16:36:29.944 Error, contrlr, ERROR: Dropping command, expected response not received after 1 attempt(s)
+2017-03-21 16:36:29.944 Detail, contrlr, Removing current message
+2017-03-21 16:36:29.944 Detail, contrlr, Notification: Notification - TimeOut
+2017-03-21 16:36:29.950 Detail, 
+2017-03-21 16:36:29.950 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x56) - FUNC_ID_ZW_GET_SUC_NODE_ID: 0x01, 0x03, 0x00, 0x56, 0xaa
+2017-03-21 16:36:30.557 Error, mgr,     Manager::GetDriver failed - Home ID 0x00000000 is unknown
+2017-03-21 16:36:30.557 Warning, Exception: Manager.cpp:373 - 100 - Invalid HomeId passed to GetDriver
+2017-03-21 16:36:30.557 Info, mgr,     GetLibraryTypeName() failed - _homeId 0 not found
+2017-03-21 16:36:30.557 Error, mgr,     Manager::GetDriver failed - Home ID 0x00000000 is unknown
+2017-03-21 16:36:30.557 Warning, Exception: Manager.cpp:373 - 100 - Invalid HomeId passed to GetDriver
+2017-03-21 16:36:30.557 Info, mgr,     GetLibraryVersion() failed - _homeId 0 not found
+2017-03-21 16:36:30.951 Error, contrlr, ERROR: Dropping command, expected response not received after 1 attempt(s)
+2017-03-21 16:36:30.951 Detail, contrlr, Removing current message
+2017-03-21 16:36:30.951 Detail, contrlr, Notification: Notification - TimeOut
+2017-03-21 16:36:47.732 Error, mgr,     Manager::GetDriver failed - Home ID 0x00000000 is unknown
+2017-03-21 16:36:47.733 Warning, Exception: Manager.cpp:373 - 100 - Invalid HomeId passed to GetDriver
+2017-03-21 16:36:47.733 Info, mgr,     GetLibraryTypeName() failed - _homeId 0 not found
+2017-03-21 16:36:47.733 Error, mgr,     Manager::GetDriver failed - Home ID 0x00000000 is unknown
+2017-03-21 16:36:47.733 Warning, Exception: Manager.cpp:373 - 100 - Invalid HomeId passed to GetDriver
+2017-03-21 16:36:47.733 Info, mgr,     GetLibraryVersion() failed - _homeId 0 not found

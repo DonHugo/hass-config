@@ -1,0 +1,5 @@
+name: Region Gotland
+latitude: !secret regiongotland_latitude
+longitude: !secret regiongotland_longitude
+radius: 200
+icon: mdi:worker

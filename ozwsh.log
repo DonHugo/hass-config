@@ -1,0 +1,223 @@
+2017-03-21 16:21:41,533 INFO =============== start ===============
+2017-03-21 16:21:41,535 INFO Add a child
+2017-03-21 16:21:41,536 INFO Add a child
+2017-03-21 16:21:41,538 INFO Add a child
+2017-03-21 16:21:41,540 INFO Add a child
+2017-03-21 16:21:41,543 INFO Add a child
+2017-03-21 16:21:41,546 INFO Add a child
+2017-03-21 16:21:41,549 INFO Add a child
+2017-03-21 16:21:41,552 INFO Add a child
+2017-03-21 16:21:41,553 INFO Add a child
+2017-03-21 16:21:41,556 INFO Add a child
+2017-03-21 16:21:41,556 INFO Add a child
+2017-03-21 16:21:41,557 INFO Add a child
+2017-03-21 16:21:41,557 INFO Add a child
+2017-03-21 16:21:41,557 INFO Add a child
+2017-03-21 16:21:41,559 INFO Add a child
+2017-03-21 16:33:50,798 INFO =============== start ===============
+2017-03-21 16:33:50,800 INFO Add a child
+2017-03-21 16:33:50,800 INFO Add a child
+2017-03-21 16:33:50,802 INFO Add a child
+2017-03-21 16:33:50,804 INFO Add a child
+2017-03-21 16:33:50,807 INFO Add a child
+2017-03-21 16:33:50,810 INFO Add a child
+2017-03-21 16:33:50,813 INFO Add a child
+2017-03-21 16:33:50,816 INFO Add a child
+2017-03-21 16:33:50,817 INFO Add a child
+2017-03-21 16:33:50,820 INFO Add a child
+2017-03-21 16:33:50,821 INFO Add a child
+2017-03-21 16:33:50,821 INFO Add a child
+2017-03-21 16:33:50,821 INFO Add a child
+2017-03-21 16:33:50,821 INFO Add a child
+2017-03-21 16:33:50,823 INFO Add a child
+2017-03-21 16:34:57,828 INFO =============== start ===============
+2017-03-21 16:34:57,830 INFO Add a child
+2017-03-21 16:34:57,831 INFO Add a child
+2017-03-21 16:34:57,833 INFO Add a child
+2017-03-21 16:34:57,835 INFO Add a child
+2017-03-21 16:34:57,837 INFO Add a child
+2017-03-21 16:34:57,840 INFO Add a child
+2017-03-21 16:34:57,843 INFO Add a child
+2017-03-21 16:34:57,846 INFO Add a child
+2017-03-21 16:34:57,847 INFO Add a child
+2017-03-21 16:34:57,850 INFO Add a child
+2017-03-21 16:34:57,851 INFO Add a child
+2017-03-21 16:34:57,851 INFO Add a child
+2017-03-21 16:34:57,852 INFO Add a child
+2017-03-21 16:34:57,852 INFO Add a child
+2017-03-21 16:34:57,853 INFO Add a child
+2017-03-21 16:35:33,362 INFO =============== start ===============
+2017-03-21 16:35:33,364 INFO Add a child
+2017-03-21 16:35:33,364 INFO Add a child
+2017-03-21 16:35:33,366 INFO Add a child
+2017-03-21 16:35:33,369 INFO Add a child
+2017-03-21 16:35:33,371 INFO Add a child
+2017-03-21 16:35:33,374 INFO Add a child
+2017-03-21 16:35:33,377 INFO Add a child
+2017-03-21 16:35:33,380 INFO Add a child
+2017-03-21 16:35:33,381 INFO Add a child
+2017-03-21 16:35:33,384 INFO Add a child
+2017-03-21 16:35:33,385 INFO Add a child
+2017-03-21 16:35:33,385 INFO Add a child
+2017-03-21 16:35:33,385 INFO Add a child
+2017-03-21 16:35:33,386 INFO Add a child
+2017-03-21 16:35:33,387 INFO Add a child
+2017-03-21 16:35:33,409 DEBUG Create network object.
+2017-03-21 16:35:33,411 INFO Start Openzwave network.
+2017-03-21 16:35:34,414 DEBUG notif_callback : new notification
+2017-03-21 16:35:34,416 DEBUG notif_callback : Notification type : 26, nodeId : 255
+2017-03-21 16:35:34,417 DEBUG notif_callback : call callback context
+2017-03-21 16:35:34,417 DEBUG zwcallback args=[{'homeId': 0, 'notificationCode': 1, 'notificationType': 'Notification', 'nodeId': 255}]
+2017-03-21 16:35:34,419 DEBUG Z-Wave Notification : {'homeId': 0, 'notificationCode': 1, 'notificationType': 'Notification', 'nodeId': 255}
+2017-03-21 16:35:34,420 DEBUG notif_callback : end
+2017-03-21 16:35:35,422 DEBUG notif_callback : new notification
+2017-03-21 16:35:35,423 DEBUG notif_callback : Notification type : 26, nodeId : 255
+2017-03-21 16:35:35,424 DEBUG notif_callback : call callback context
+2017-03-21 16:35:35,425 DEBUG zwcallback args=[{'homeId': 0, 'notificationCode': 1, 'notificationType': 'Notification', 'nodeId': 255}]
+2017-03-21 16:35:35,426 DEBUG Z-Wave Notification : {'homeId': 0, 'notificationCode': 1, 'notificationType': 'Notification', 'nodeId': 255}
+2017-03-21 16:35:35,427 DEBUG notif_callback : end
+2017-03-21 16:35:36,429 DEBUG notif_callback : new notification
+2017-03-21 16:35:36,430 DEBUG notif_callback : Notification type : 26, nodeId : 255
+2017-03-21 16:35:36,431 DEBUG notif_callback : call callback context
+2017-03-21 16:35:36,431 DEBUG zwcallback args=[{'homeId': 0, 'notificationCode': 1, 'notificationType': 'Notification', 'nodeId': 255}]
+2017-03-21 16:35:36,432 DEBUG Z-Wave Notification : {'homeId': 0, 'notificationCode': 1, 'notificationType': 'Notification', 'nodeId': 255}
+2017-03-21 16:35:36,433 DEBUG notif_callback : end
+2017-03-21 16:35:37,435 DEBUG notif_callback : new notification
+2017-03-21 16:35:37,436 DEBUG notif_callback : Notification type : 26, nodeId : 255
+2017-03-21 16:35:37,437 DEBUG notif_callback : call callback context
+2017-03-21 16:35:37,438 DEBUG zwcallback args=[{'homeId': 0, 'notificationCode': 1, 'notificationType': 'Notification', 'nodeId': 255}]
+2017-03-21 16:35:37,438 DEBUG Z-Wave Notification : {'homeId': 0, 'notificationCode': 1, 'notificationType': 'Notification', 'nodeId': 255}
+2017-03-21 16:35:37,440 DEBUG notif_callback : end
+2017-03-21 16:35:38,442 DEBUG notif_callback : new notification
+2017-03-21 16:35:38,443 DEBUG notif_callback : Notification type : 26, nodeId : 255
+2017-03-21 16:35:38,443 DEBUG notif_callback : call callback context
+2017-03-21 16:35:38,444 DEBUG zwcallback args=[{'homeId': 0, 'notificationCode': 1, 'notificationType': 'Notification', 'nodeId': 255}]
+2017-03-21 16:35:38,445 DEBUG Z-Wave Notification : {'homeId': 0, 'notificationCode': 1, 'notificationType': 'Notification', 'nodeId': 255}
+2017-03-21 16:35:38,446 DEBUG notif_callback : end
+2017-03-21 16:35:41,736 INFO handled: 'enter'
+2017-03-21 16:35:53,872 INFO unhandled: ('mouse press', 1.0, 22, 5)
+2017-03-21 16:35:53,913 INFO unhandled: ('mouse release', 0, 22, 5)
+2017-03-21 16:35:57,925 INFO unhandled: '/'
+2017-03-21 16:35:57,927 INFO unhandled: 'd'
+2017-03-21 16:35:57,928 INFO unhandled: 'e'
+2017-03-21 16:35:57,929 INFO unhandled: 'v'
+2017-03-21 16:35:57,930 INFO unhandled: '/'
+2017-03-21 16:35:57,931 INFO unhandled: 't'
+2017-03-21 16:35:57,933 INFO unhandled: 't'
+2017-03-21 16:35:57,934 INFO unhandled: 'y'
+2017-03-21 16:35:57,935 INFO unhandled: 'S'
+2017-03-21 16:35:59,408 INFO unhandled: ('mouse release', 0, 11, 20)
+2017-03-21 16:36:00,705 INFO handled: 'enter'
+2017-03-21 16:36:01,622 INFO unhandled: 'backspace'
+2017-03-21 16:36:02,531 INFO unhandled: '/'
+2017-03-21 16:36:02,533 INFO unhandled: 'd'
+2017-03-21 16:36:02,534 INFO unhandled: 'e'
+2017-03-21 16:36:02,535 INFO unhandled: 'v'
+2017-03-21 16:36:02,536 INFO unhandled: '/'
+2017-03-21 16:36:02,537 INFO unhandled: 't'
+2017-03-21 16:36:02,539 INFO unhandled: 't'
+2017-03-21 16:36:02,540 INFO unhandled: 'y'
+2017-03-21 16:36:02,541 INFO unhandled: 'S'
+2017-03-21 16:36:04,895 INFO handled: 'enter'
+2017-03-21 16:36:04,898 INFO unhandled: 'c'
+2017-03-21 16:36:04,900 INFO unhandled: 'o'
+2017-03-21 16:36:04,901 INFO unhandled: 'n'
+2017-03-21 16:36:04,905 INFO unhandled: 't'
+2017-03-21 16:36:04,986 INFO unhandled: 'r'
+2017-03-21 16:36:05,130 INFO unhandled: 'o'
+2017-03-21 16:36:05,404 INFO unhandled: 'l'
+2017-03-21 16:36:05,547 INFO unhandled: 'l'
+2017-03-21 16:36:05,628 INFO unhandled: 'e'
+2017-03-21 16:36:05,773 INFO unhandled: 'r'
+2017-03-21 16:36:06,174 INFO handled: 'enter'
+2017-03-21 16:36:08,649 INFO handled: 'enter'
+2017-03-21 16:36:09,823 INFO handled: 'enter'
+2017-03-21 16:36:10,684 INFO unhandled: 'down'
+2017-03-21 16:36:10,839 INFO unhandled: 'down'
+2017-03-21 16:36:10,997 INFO unhandled: 'down'
+2017-03-21 16:36:11,765 INFO unhandled: 'right'
+2017-03-21 16:36:12,683 INFO handled: 'enter'
+2017-03-21 16:36:13,495 INFO handled: 'enter'
+2017-03-21 16:36:14,625 INFO handled: 'enter'
+2017-03-21 16:36:14,830 INFO handled: 'enter'
+2017-03-21 16:36:15,377 INFO unhandled: 'right'
+2017-03-21 16:36:15,600 INFO unhandled: 'right'
+2017-03-21 16:36:15,779 INFO unhandled: 'left'
+2017-03-21 16:36:16,049 INFO unhandled: 'left'
+2017-03-21 16:36:16,227 INFO unhandled: 'up'
+2017-03-21 16:36:16,484 INFO unhandled: 'up'
+2017-03-21 16:36:16,679 INFO unhandled: 'up'
+2017-03-21 16:36:16,936 INFO unhandled: 'up'
+2017-03-21 16:36:18,388 INFO unhandled: 'l'
+2017-03-21 16:36:18,565 INFO unhandled: 's'
+2017-03-21 16:36:18,741 INFO handled: 'enter'
+2017-03-21 16:36:20,230 INFO unhandled: 'q'
+2017-03-21 16:36:25,871 INFO =============== start ===============
+2017-03-21 16:36:25,873 INFO Add a child
+2017-03-21 16:36:25,874 INFO Add a child
+2017-03-21 16:36:25,876 INFO Add a child
+2017-03-21 16:36:25,878 INFO Add a child
+2017-03-21 16:36:25,880 INFO Add a child
+2017-03-21 16:36:25,883 INFO Add a child
+2017-03-21 16:36:25,886 INFO Add a child
+2017-03-21 16:36:25,889 INFO Add a child
+2017-03-21 16:36:25,890 INFO Add a child
+2017-03-21 16:36:25,893 INFO Add a child
+2017-03-21 16:36:25,894 INFO Add a child
+2017-03-21 16:36:25,894 INFO Add a child
+2017-03-21 16:36:25,894 INFO Add a child
+2017-03-21 16:36:25,895 INFO Add a child
+2017-03-21 16:36:25,896 INFO Add a child
+2017-03-21 16:36:25,918 DEBUG Create network object.
+2017-03-21 16:36:25,920 INFO Start Openzwave network.
+2017-03-21 16:36:26,923 DEBUG notif_callback : new notification
+2017-03-21 16:36:26,925 DEBUG notif_callback : Notification type : 26, nodeId : 255
+2017-03-21 16:36:26,926 DEBUG notif_callback : call callback context
+2017-03-21 16:36:26,927 DEBUG zwcallback args=[{'notificationType': 'Notification', 'homeId': 0, 'notificationCode': 1, 'nodeId': 255}]
+2017-03-21 16:36:26,928 DEBUG Z-Wave Notification : {'notificationType': 'Notification', 'homeId': 0, 'notificationCode': 1, 'nodeId': 255}
+2017-03-21 16:36:26,930 DEBUG notif_callback : end
+2017-03-21 16:36:27,932 DEBUG notif_callback : new notification
+2017-03-21 16:36:27,933 DEBUG notif_callback : Notification type : 26, nodeId : 255
+2017-03-21 16:36:27,934 DEBUG notif_callback : call callback context
+2017-03-21 16:36:27,934 DEBUG zwcallback args=[{'notificationType': 'Notification', 'homeId': 0, 'notificationCode': 1, 'nodeId': 255}]
+2017-03-21 16:36:27,935 DEBUG Z-Wave Notification : {'notificationType': 'Notification', 'homeId': 0, 'notificationCode': 1, 'nodeId': 255}
+2017-03-21 16:36:27,936 DEBUG notif_callback : end
+2017-03-21 16:36:28,938 DEBUG notif_callback : new notification
+2017-03-21 16:36:28,939 DEBUG notif_callback : Notification type : 26, nodeId : 255
+2017-03-21 16:36:28,940 DEBUG notif_callback : call callback context
+2017-03-21 16:36:28,941 DEBUG zwcallback args=[{'notificationType': 'Notification', 'homeId': 0, 'notificationCode': 1, 'nodeId': 255}]
+2017-03-21 16:36:28,942 DEBUG Z-Wave Notification : {'notificationType': 'Notification', 'homeId': 0, 'notificationCode': 1, 'nodeId': 255}
+2017-03-21 16:36:28,943 DEBUG notif_callback : end
+2017-03-21 16:36:29,945 DEBUG notif_callback : new notification
+2017-03-21 16:36:29,946 DEBUG notif_callback : Notification type : 26, nodeId : 255
+2017-03-21 16:36:29,946 DEBUG notif_callback : call callback context
+2017-03-21 16:36:29,947 DEBUG zwcallback args=[{'notificationType': 'Notification', 'homeId': 0, 'notificationCode': 1, 'nodeId': 255}]
+2017-03-21 16:36:29,948 DEBUG Z-Wave Notification : {'notificationType': 'Notification', 'homeId': 0, 'notificationCode': 1, 'nodeId': 255}
+2017-03-21 16:36:29,949 DEBUG notif_callback : end
+2017-03-21 16:36:30,535 INFO handled: 'enter'
+2017-03-21 16:36:30,952 DEBUG notif_callback : new notification
+2017-03-21 16:36:30,953 DEBUG notif_callback : Notification type : 26, nodeId : 255
+2017-03-21 16:36:30,953 DEBUG notif_callback : call callback context
+2017-03-21 16:36:30,954 DEBUG zwcallback args=[{'notificationType': 'Notification', 'homeId': 0, 'notificationCode': 1, 'nodeId': 255}]
+2017-03-21 16:36:30,955 DEBUG Z-Wave Notification : {'notificationType': 'Notification', 'homeId': 0, 'notificationCode': 1, 'nodeId': 255}
+2017-03-21 16:36:30,956 DEBUG notif_callback : end
+2017-03-21 16:36:31,588 INFO unhandled: 'down'
+2017-03-21 16:36:32,376 INFO unhandled: 'up'
+2017-03-21 16:36:32,902 INFO unhandled: 'down'
+2017-03-21 16:36:33,402 INFO unhandled: 'up'
+2017-03-21 16:36:33,823 INFO unhandled: 'down'
+2017-03-21 16:36:36,271 INFO handled: 'enter'
+2017-03-21 16:36:45,124 INFO unhandled: 'backspace'
+2017-03-21 16:36:45,268 INFO unhandled: 'backspace'
+2017-03-21 16:36:45,412 INFO unhandled: 'backspace'
+2017-03-21 16:36:45,571 INFO unhandled: 'backspace'
+2017-03-21 16:36:45,731 INFO unhandled: 'backspace'
+2017-03-21 16:36:45,891 INFO unhandled: 'backspace'
+2017-03-21 16:36:46,036 INFO unhandled: 'backspace'
+2017-03-21 16:36:46,183 INFO unhandled: 'backspace'
+2017-03-21 16:36:46,297 INFO unhandled: 'backspace'
+2017-03-21 16:36:46,533 INFO unhandled: 'backspace'
+2017-03-21 16:36:46,726 INFO unhandled: 'backspace'
+2017-03-21 16:36:47,722 INFO handled: 'enter'
+2017-03-21 16:36:47,736 INFO  self.active_box 
+2017-03-21 16:36:50,128 INFO handled: 'enter'

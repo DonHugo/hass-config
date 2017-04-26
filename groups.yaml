@@ -105,6 +105,7 @@
     entities:
       - media_player.chromecast_vardagsrum
       - media_player.kodi
+      - media_player.spotify
 
   devices:
     view: no
